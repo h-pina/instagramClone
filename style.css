@@ -29,20 +29,10 @@
 
     display: flex;
     justify-content:flex-start;
-    align-items: stretch;
-    
     margin-top: 40px;
 
     border-style: solid;
     border-color: red;
-}
-
-
-
-.stories{
-    width: 100%;
-    height: 130px;
-    background-color: saddlebrown;
 }
 
 .sidebar{
@@ -53,8 +43,38 @@
 
 .middlebar{
     width: 70%;
+    margin-right: 2%;
     background-color: green;
+}
 
+.stories{
+    width: 100%;
+    height: 100px;
+    background-color: saddlebrown;
+    position: relative;
+    overflow:auto;
+}
+
+.stories-collection{
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    width: 200%;
+    display: flex;
+}
+
+.story-container{
+    width: 4%;
+    height: 100%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;;
+}
+.story{
+    background-color: aqua;
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
 }
 
 .post{
