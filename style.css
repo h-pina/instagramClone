@@ -70,17 +70,68 @@
     display: flex;
     align-items: center;;
 }
-.story{
-    background-color: aqua;
-    width: 100%;
+.story-pic{
     height: 60%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
 .post{
     margin-top: 5%;
-    height: 1000px;
+    height: 1100px;
     background-color: grey;
+    position: relative;
 }
 
+.interaction-buttons, .post-a-comment{
+    height: 5%;
+}
 
+.post-header{
+    height: 6%;
+    background-color: blueviolet;
+}
+
+.picture {
+    background-color: chocolate;
+    height: 60%;
+    object-fit: contain;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-pic-container{
+    width: 10%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.post-profile-pic{
+    height:50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.post-pic{
+    height: 100%;
+    width: 100%;
+}
+
+.interaction-buttons{
+    background-color: crimson;
+}
+
+.description{
+    background-color: darkred;
+    height: 25%;
+}
+
+.post-a-comment{
+    background-color: lightsalmon;
+}
