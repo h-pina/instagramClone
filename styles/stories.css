@@ -1,0 +1,30 @@
+.stories{
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    position: relative;
+    overflow:hidden;
+}
+
+.stories-collection{
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    width: 200%;
+    display: flex;
+}
+
+.story-container{
+    width: 4%;
+    height: 100%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;;
+}
+.story-pic{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
